@@ -60,7 +60,6 @@ public class Gramatica
                if (verificar(novoCaminho, palavra))
                {
                    buffer += novoCaminho + "\n";
-                   //System.out.println("Caminho: " + novoCaminho);
                    return true;
                }
            }
